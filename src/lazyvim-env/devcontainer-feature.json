@@ -1,0 +1,11 @@
+{
+  "id": "lazyvim-env",
+  "name": "Lazyvim Environment",
+  "version": "1.0.0",
+  "description": "Setup a proper env for working with Lazyvim",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/common-utils": {},
+    "ghcr.io/Flink/devcontainer-features/homebrew": {}
+  },
+  "installsAfter": ["ghcr.io/Flink/devcontainer-features/homebrew"]
+}
