@@ -1,7 +1,7 @@
 {
   "id": "lazyvim-env",
   "name": "Lazyvim Environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Setup a proper env for working with Lazyvim",
   "dependsOn": {
     "ghcr.io/devcontainers/features/common-utils": {},
