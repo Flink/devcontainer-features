@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo -u \#1000 -iH brew install neovim luarocks ripgrep claude-code lazygit tree-sitter-cli fd ag btop bat fzf ast-grep
+sudo -u \#1000 -iH brew install neovim luarocks ripgrep claude-code lazygit tree-sitter-cli fd ag btop bat fzf ast-grep gemini-cli oven-sh/bun/bun
 
 if command -v gem &>/dev/null; then
   gem install syntax_tree neovim
