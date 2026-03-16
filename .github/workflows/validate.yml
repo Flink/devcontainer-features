@@ -14,3 +14,10 @@ jobs:
         with:
           validate-only: "true"
           base-path-to-features: "./src"
+
+      - name: "Test Features"
+        uses: devcontainers/action@v1
+        with:
+          features-test-all: "true"
+          base-path-to-features: "./src"
+          base-path-to-tests: "./test"

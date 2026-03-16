@@ -3,7 +3,7 @@
   "id": "homebrew",
   "version": "2.0.4",
   "description": "Installs Homebrew",
-  "documentationURL": "https://github.com/meaningful-ooo/devcontainer-features/tree/main/src/homebrew",
+  "documentationURL": "https://github.com/Flink/devcontainer-features/tree/main/src/homebrew",
   "options": {
     "shallowClone": {
       "type": "boolean",

@@ -2,7 +2,7 @@
 
 BREW_PREFIX=${BREW_PREFIX:-"/home/linuxbrew/.linuxbrew"}
 SHALLOW_CLONE=${SHALLOWCLONE:-"false"}
-USERNAME=${USERNAME:-"automatic"}
+USERNAME="${_REMOTE_USER:-${USERNAME:-"automatic"}}"
 
 cleanup() {
   source /etc/os-release
@@ -93,6 +93,7 @@ cleanup
 
 # Install dependencies if missing
 check_packages \
+  build-essential \
   bzip2 \
   ca-certificates \
   curl \

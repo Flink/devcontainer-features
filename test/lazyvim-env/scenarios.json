@@ -1,0 +1,12 @@
+{
+    "install_lazyvim_env": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "remoteUser": "vscode",
+        "features": {
+            "homebrew": {
+                "shallowClone": true
+            },
+            "lazyvim-env": {}
+        }
+    }
+}
